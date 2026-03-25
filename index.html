@@ -17,7 +17,7 @@
 </head>
 <body>
   <div id="root"></div>
-  <scr type="text/babel"ipt>
+  <script type="text/babel">
     const { useState, useRef, useEffect } = React;
     const createIcon = (name) => ({ size=24, className='', color='currentColor', strokeWidth=2, ...props }) => {
       const d = lucide[name]; if (!d) return React.createElement('span', { className }, name);
