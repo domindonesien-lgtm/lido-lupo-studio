@@ -18,6 +18,7 @@
 <body>
   <div id="root"></div>
   <script type="text/babel">
+    window.exports = {}; window.module = { exports: {} };
     const { useState, useRef, useEffect } = React;
     const createIcon = (name) => ({ size=24, className='', color='currentColor', strokeWidth=2, ...props }) => {
       const d = lucide[name]; if (!d) return React.createElement('span', { className }, name);
