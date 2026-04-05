@@ -270,7 +270,7 @@ const App = () => {
         
         {activeTab === 'instagram' ? (
           /* Instagram Dummy View */
-          <div className="space-y-4 animate-in fade-in duration-300">
+          <div className="space-y-4">
             {/* Hidden file input for post images */}
             <input type="file" ref={igFileRef} onChange={igHandleImageUpload} className="hidden" accept="image/*" />
 
@@ -358,10 +358,10 @@ const App = () => {
             <div className="bg-indigo-50 rounded-2xl p-4 border border-indigo-100">
               <p className="text-[10px] font-black uppercase tracking-widest text-indigo-400 mb-2">💡 Kompositions-Tipps</p>
               <ul className="text-xs text-indigo-700 space-y-1">
-                <li>• Ziehe Beiträge per Drag & Drop um die Reihenfolge zu ändern</li>
-                <li>• Achte auf Farb-Abwechslung in jeder 3er-Reihe</li>
-                <li>• Mische Content-Typen: Food, Mood, Events, Promo</li>
-                <li>• Klicke auf einen Beitrag für Details & Bildupload</li>
+                <li>{"• Ziehe Beiträge per Drag & Drop um die Reihenfolge zu ändern"}</li>
+                <li>{"• Achte auf Farb-Abwechslung in jeder 3er-Reihe"}</li>
+                <li>{"• Mische Content-Typen: Food, Mood, Events, Promo"}</li>
+                <li>{"• Klicke auf einen Beitrag für Details & Bildupload"}</li>
               </ul>
             </div>
 
